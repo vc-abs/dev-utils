@@ -1,0 +1,21 @@
+# Ignores
+## General
+.*
+*.bak
+
+## Dev
+!.vscode
+.vscode/*.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/extensions.json
+!.editorconfig
+!cspell.json
+!.specify
+
+# Excludes
+# Add exclusions here.
+
+## General
+!.git*
+
