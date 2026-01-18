@@ -1,5 +1,5 @@
 ---
-name: commit
+name: git.commit
 description: Analyze changes, verify atomicity, and generate atomic commit messages
 argument-hint: No arguments required - analyzes current git changes
 agent: abs.copilot.worker

@@ -1,5 +1,5 @@
 ---
-name: list-prompts
+name: abs.list-prompts
 description: Scan and display available custom prompts from multiple locations (⚠️ workspace scope limited)
 last-updated: 2025-12-25
 ---
@@ -25,7 +25,7 @@ Display discovered prompts in the following table:
 **Priority order for scanning:**
 1. `<project-root>/.github/prompts/` - Repository-specific custom prompts
 2. `~/.config/Code/User/prompts/` - VS Code user prompts directory (includes this prompt's siblings)
-3. User VS Code settings directory - Other user-defined global prompts  
+3. User VS Code settings directory - Other user-defined global prompts
 4. VS Code extensions - Extension-provided prompts
 
 ## Implementation Notes
