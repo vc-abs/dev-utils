@@ -1,11 +1,11 @@
 ---
-name: abs.copilot.worker
+name: abs.l1
 description: Cost-effective agent for routine tasks
 model: GPT-4.1
 argument-hint: Describe the routine task to execute
 ---
 
-# Worker Agent
+# L1 Agent
 
 Execute routine, well-defined tasks using a cost-effective model. Ideal for standard operations like commit messages, code formatting, simple refactoring, and documentation generation.
 
@@ -56,10 +56,10 @@ To maximize effectiveness with this cost-efficient model:
 
 ## Integration with Custom Prompts
 
-Reference this agent in custom prompts using the `@worker` mention:
+Reference this agent in custom prompts using the `@abs.l1` mention:
 
 ```markdown
-@worker please generate a commit message for the staged changes
+@abs.l1 please generate a commit message for the staged changes
 ```
 
 Or set as default model in prompt front-matter:
@@ -68,7 +68,7 @@ Or set as default model in prompt front-matter:
 ---
 name: my-prompt
 recommended_model: "gpt-4.1"
-agent: "worker"
+agent: "abs.l1"
 ---
 ```
 
